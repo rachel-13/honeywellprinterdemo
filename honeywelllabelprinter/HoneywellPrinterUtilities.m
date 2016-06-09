@@ -189,7 +189,6 @@
     [printerCommandString appendString:@"BF \"Andale Mono\",1: "];
     [printerCommandString appendString:@"PP 17,35: "];
     [printerCommandString appendString:@"AN 1: "];
-    [printerCommandString appendString:@"DIR 1: "];
     [printerCommandString appendString:[NSString stringWithFormat:@"BARSET \"%@\": ", barcodeTypeCode]];
     [printerCommandString appendString:@"BARHEIGHT 50: "];
     [printerCommandString appendString:[NSString stringWithFormat:@"PB \"%@\": ", barCodeInput]];
@@ -198,7 +197,6 @@
     [printerCommandString appendString:@"FT \"Andale Mono\",6: "];
     [printerCommandString appendString:@"PP 200,0: "];
     [printerCommandString appendString:@"AN 2: "];
-    [printerCommandString appendString:@"DIR 1: "];
     [printerCommandString appendString:[NSString stringWithFormat:@"PX 25,400,0,\"%@\": ", @"Ritebos Sdn Bhd, Genius Income"]];
     
     // divider line top company details
