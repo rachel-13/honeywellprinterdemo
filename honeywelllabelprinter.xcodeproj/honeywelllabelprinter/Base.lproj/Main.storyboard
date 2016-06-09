@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Data to be encoded" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Ld-VG-72k">
+                                <rect key="frame" x="200" y="129" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="GRD-KS-j2a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="xUh-gG-ckg"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z62-iO-Kq9">
+                                <rect key="frame" x="277" y="239" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="t4K-ec-qhj"/>
+                                </constraints>
+                                <state key="normal" title="Print"/>
+                                <connections>
+                                    <action selector="didPressPrint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aFA-TS-Tgt"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Barcode Type Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QJk-Nj-uUy">
+                                <rect key="frame" x="200" y="179" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="I0s-nc-cGN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="teZ-Bz-ypo"/>
+                                </connections>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="Bkd-9g-NFr">
+                                <rect key="frame" x="0.0" y="299" width="600" height="301"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Y4n-vh-nSH"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Bpb-SE-Gtn"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bkd-9g-NFr" firstAttribute="top" secondItem="z62-iO-Kq9" secondAttribute="bottom" constant="30" id="24P-US-5Qx"/>
+                            <constraint firstItem="z62-iO-Kq9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3cm-bU-yCI"/>
+                            <constraint firstItem="7Ld-VG-72k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4K5-RV-Vwf"/>
+                            <constraint firstItem="z62-iO-Kq9" firstAttribute="top" secondItem="7Ld-VG-72k" secondAttribute="bottom" constant="80" id="8Dn-M5-oqy"/>
+                            <constraint firstItem="QJk-Nj-uUy" firstAttribute="top" secondItem="7Ld-VG-72k" secondAttribute="bottom" constant="20" id="Hre-ix-ZXh"/>
+                            <constraint firstAttribute="trailing" secondItem="Bkd-9g-NFr" secondAttribute="trailing" id="VVC-hT-6cD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Bkd-9g-NFr" secondAttribute="bottom" id="bzY-98-a0m"/>
+                            <constraint firstItem="7Ld-VG-72k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="109" id="cT5-hJ-FR9"/>
+                            <constraint firstItem="QJk-Nj-uUy" firstAttribute="leading" secondItem="7Ld-VG-72k" secondAttribute="leading" id="wfU-gT-O9x"/>
+                            <constraint firstItem="Bkd-9g-NFr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xTJ-ha-kwA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barCodeTypePicker" destination="Bkd-9g-NFr" id="kEA-oY-7DV"/>
+                        <outlet property="barCodeTypeTextField" destination="QJk-Nj-uUy" id="on6-w3-rFe"/>
+                        <outlet property="inputTextField" destination="7Ld-VG-72k" id="Oic-Mv-ipx"/>
+                        <outlet property="printButton" destination="z62-iO-Kq9" id="XB0-P6-CdV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:/Users/pohyee/Development/honeywelllabeprinter/honeywelllabelprinter.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:honeywelllabelprinter"
+      name = "honeywelllabelprinter">
+      <FileRef
+         location = "group:1bitleaf">
+      </FileRef>
+      <FileRef
+         location = "group:AppDelegate.h">
+      </FileRef>
+      <FileRef
+         location = "group:AppDelegate.m">
+      </FileRef>
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Base.lproj"
+         name = "Base.lproj">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:HomeViewController.h">
+      </FileRef>
+      <FileRef
+         location = "group:HomeViewController.m">
+      </FileRef>
+      <FileRef
+         location = "group:HoneywellPrinterUtilities.h">
+      </FileRef>
+      <FileRef
+         location = "group:HoneywellPrinterUtilities.m">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <Group
+         location = "group:Libraries"
+         name = "Libraries">
+         <Group
+            location = "group:printersdk.framework"
+            name = "printersdk.framework">
+            <FileRef
+               location = "group:Headers">
+            </FileRef>
+            <FileRef
+               location = "group:printersdk">
+            </FileRef>
+            <Group
+               location = "group:Versions"
+               name = "Versions">
+               <Group
+                  location = "group:A"
+                  name = "A">
+                  <Group
+                     location = "group:Headers"
+                     name = "Headers">
+                     <FileRef
+                        location = "group:ITCExtraSettings.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ITCLinePrinter.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ITCLinePrinterException.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ITCPrintProgressEvent.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ITCPrintProgressListener.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:legalinfo.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:printersdk">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Current">
+               </FileRef>
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:main.m">
+      </FileRef>
+      <FileRef
+         location = "group:printer_profiles.JSON">
+      </FileRef>
+   </Group>
+</Workspace>

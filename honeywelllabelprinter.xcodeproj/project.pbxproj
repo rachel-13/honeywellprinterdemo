@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9604E3D91CFE9524003AFE4C /* 1bitleaf in Resources */ = {isa = PBXBuildFile; fileRef = 9604E3C71CFE9524003AFE4C /* 1bitleaf */; };
+		9604E3DA1CFE9524003AFE4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604E3C91CFE9524003AFE4C /* AppDelegate.m */; };
+		9604E3DB1CFE9524003AFE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9604E3CA1CFE9524003AFE4C /* Assets.xcassets */; };
+		9604E3DC1CFE9524003AFE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9604E3CC1CFE9524003AFE4C /* LaunchScreen.storyboard */; };
+		9604E3DE1CFE9524003AFE4C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604E3D11CFE9524003AFE4C /* HomeViewController.m */; };
+		9604E3DF1CFE9524003AFE4C /* HoneywellPrinterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604E3D31CFE9524003AFE4C /* HoneywellPrinterUtilities.m */; };
+		9604E3E21CFE9524003AFE4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604E3D71CFE9524003AFE4C /* main.m */; };
+		9604E3E31CFE9524003AFE4C /* printer_profiles.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 9604E3D81CFE9524003AFE4C /* printer_profiles.JSON */; };
+		9604E3E71CFE959C003AFE4C /* printersdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9604E3E61CFE959C003AFE4C /* printersdk.framework */; };
+		9604E3E91CFE9628003AFE4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9604E3E81CFE9628003AFE4C /* Info.plist */; };
+		9643D8F21CF5BBCA00DB3A44 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9643D8F11CF5BBCA00DB3A44 /* ExternalAccessory.framework */; };
+		9643D9001CF6A89D00DB3A44 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9643D8FF1CF6A89D00DB3A44 /* libstdc++.6.0.9.tbd */; };
+		965480C21CFFD8B500F892B5 /* puzzle in Resources */ = {isa = PBXBuildFile; fileRef = 965480C11CFFD8B500F892B5 /* puzzle */; };
+		96B2AF191D015FC800A40737 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96B2AF181D015FC800A40737 /* Settings.bundle */; };
+		96B2AF1C1D0170D600A40737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B2AF1A1D0170D600A40737 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9604E3C71CFE9524003AFE4C /* 1bitleaf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1bitleaf; path = honeywelllabelprinter/1bitleaf; sourceTree = SOURCE_ROOT; };
+		9604E3C81CFE9524003AFE4C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = honeywelllabelprinter/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9604E3C91CFE9524003AFE4C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = honeywelllabelprinter/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		9604E3CA1CFE9524003AFE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = honeywelllabelprinter/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		9604E3CD1CFE9524003AFE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9604E3D01CFE9524003AFE4C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = honeywelllabelprinter/HomeViewController.h; sourceTree = SOURCE_ROOT; };
+		9604E3D11CFE9524003AFE4C /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = honeywelllabelprinter/HomeViewController.m; sourceTree = SOURCE_ROOT; };
+		9604E3D21CFE9524003AFE4C /* HoneywellPrinterUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoneywellPrinterUtilities.h; path = honeywelllabelprinter/HoneywellPrinterUtilities.h; sourceTree = SOURCE_ROOT; };
+		9604E3D31CFE9524003AFE4C /* HoneywellPrinterUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoneywellPrinterUtilities.m; path = honeywelllabelprinter/HoneywellPrinterUtilities.m; sourceTree = SOURCE_ROOT; };
+		9604E3D71CFE9524003AFE4C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = honeywelllabelprinter/main.m; sourceTree = SOURCE_ROOT; };
+		9604E3D81CFE9524003AFE4C /* printer_profiles.JSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = printer_profiles.JSON; path = honeywelllabelprinter/printer_profiles.JSON; sourceTree = SOURCE_ROOT; };
+		9604E3E61CFE959C003AFE4C /* printersdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = printersdk.framework; path = honeywelllabelprinter/Libraries/printersdk.framework; sourceTree = SOURCE_ROOT; };
+		9604E3E81CFE9628003AFE4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = honeywelllabelprinter/Info.plist; sourceTree = SOURCE_ROOT; };
+		9643D8C81CF5B47400DB3A44 /* honeywelllabelprinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honeywelllabelprinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9643D8F11CF5BBCA00DB3A44 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9643D8FF1CF6A89D00DB3A44 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		965480C11CFFD8B500F892B5 /* puzzle */ = {isa = PBXFileReference; lastKnownFileType = file; name = puzzle; path = honeywelllabelprinter/puzzle; sourceTree = SOURCE_ROOT; };
+		96B2AF181D015FC800A40737 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = honeywelllabelprinter/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		96B2AF1B1D0170D600A40737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = honeywelllabelprinter/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9643D8C51CF5B47400DB3A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9643D9001CF6A89D00DB3A44 /* libstdc++.6.0.9.tbd in Frameworks */,
+				9604E3E71CFE959C003AFE4C /* printersdk.framework in Frameworks */,
+				9643D8F21CF5BBCA00DB3A44 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9604E3CB1CFE9524003AFE4C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				9604E3CC1CFE9524003AFE4C /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			path = honeywelllabelprinter/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		9643D8BF1CF5B47400DB3A44 = {
+			isa = PBXGroup;
+			children = (
+				9643D8CA1CF5B47400DB3A44 /* honeywelllabelprinter */,
+				9643D8C91CF5B47400DB3A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9643D8C91CF5B47400DB3A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9643D8C81CF5B47400DB3A44 /* honeywelllabelprinter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9643D8CA1CF5B47400DB3A44 /* honeywelllabelprinter */ = {
+			isa = PBXGroup;
+			children = (
+				965480C11CFFD8B500F892B5 /* puzzle */,
+				9604E3C71CFE9524003AFE4C /* 1bitleaf */,
+				9604E3C81CFE9524003AFE4C /* AppDelegate.h */,
+				9604E3C91CFE9524003AFE4C /* AppDelegate.m */,
+				9604E3CA1CFE9524003AFE4C /* Assets.xcassets */,
+				9604E3CB1CFE9524003AFE4C /* Base.lproj */,
+				9604E3D01CFE9524003AFE4C /* HomeViewController.h */,
+				9604E3D11CFE9524003AFE4C /* HomeViewController.m */,
+				9604E3D21CFE9524003AFE4C /* HoneywellPrinterUtilities.h */,
+				9604E3D31CFE9524003AFE4C /* HoneywellPrinterUtilities.m */,
+				9604E3D81CFE9524003AFE4C /* printer_profiles.JSON */,
+				9604E3E81CFE9628003AFE4C /* Info.plist */,
+				96B2AF1A1D0170D600A40737 /* Main.storyboard */,
+				9643D8E21CF5B58400DB3A44 /* Libraries */,
+				9643D8CB1CF5B47400DB3A44 /* Supporting Files */,
+				96B2AF181D015FC800A40737 /* Settings.bundle */,
+			);
+			name = honeywelllabelprinter;
+			path = honeywelllabeprinter;
+			sourceTree = "<group>";
+		};
+		9643D8CB1CF5B47400DB3A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9604E3D71CFE9524003AFE4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9643D8E21CF5B58400DB3A44 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9604E3E61CFE959C003AFE4C /* printersdk.framework */,
+				9643D8FF1CF6A89D00DB3A44 /* libstdc++.6.0.9.tbd */,
+				9643D8F11CF5BBCA00DB3A44 /* ExternalAccessory.framework */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9643D8C71CF5B47400DB3A44 /* honeywelllabelprinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9643D8DF1CF5B47400DB3A44 /* Build configuration list for PBXNativeTarget "honeywelllabelprinter" */;
+			buildPhases = (
+				9643D8C41CF5B47400DB3A44 /* Sources */,
+				9643D8C51CF5B47400DB3A44 /* Frameworks */,
+				9643D8C61CF5B47400DB3A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = honeywelllabelprinter;
+			productName = honeywelllabeprinter;
+			productReference = 9643D8C81CF5B47400DB3A44 /* honeywelllabelprinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9643D8C01CF5B47400DB3A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ritebozz;
+				TargetAttributes = {
+					9643D8C71CF5B47400DB3A44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J447Q9PQFH;
+					};
+				};
+			};
+			buildConfigurationList = 9643D8C31CF5B47400DB3A44 /* Build configuration list for PBXProject "honeywelllabelprinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9643D8BF1CF5B47400DB3A44;
+			productRefGroup = 9643D8C91CF5B47400DB3A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9643D8C71CF5B47400DB3A44 /* honeywelllabelprinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9643D8C61CF5B47400DB3A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B2AF191D015FC800A40737 /* Settings.bundle in Resources */,
+				9604E3DC1CFE9524003AFE4C /* LaunchScreen.storyboard in Resources */,
+				9604E3E31CFE9524003AFE4C /* printer_profiles.JSON in Resources */,
+				96B2AF1C1D0170D600A40737 /* Main.storyboard in Resources */,
+				9604E3E91CFE9628003AFE4C /* Info.plist in Resources */,
+				9604E3DB1CFE9524003AFE4C /* Assets.xcassets in Resources */,
+				9604E3D91CFE9524003AFE4C /* 1bitleaf in Resources */,
+				965480C21CFFD8B500F892B5 /* puzzle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9643D8C41CF5B47400DB3A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9604E3DF1CFE9524003AFE4C /* HoneywellPrinterUtilities.m in Sources */,
+				9604E3DA1CFE9524003AFE4C /* AppDelegate.m in Sources */,
+				9604E3E21CFE9524003AFE4C /* main.m in Sources */,
+				9604E3DE1CFE9524003AFE4C /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9604E3CC1CFE9524003AFE4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9604E3CD1CFE9524003AFE4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		96B2AF1A1D0170D600A40737 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96B2AF1B1D0170D600A40737 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9643D8DD1CF5B47400DB3A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9643D8DE1CF5B47400DB3A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9643D8E01CF5B47400DB3A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/honeywelllabeprinter/Libraries",
+					"$(PROJECT_DIR)/honeywelllabelprinter/Libraries",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/honeywelllabelprinter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/honeywelllabeprinter/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ritebozz.honeywelllabeprinter;
+				PRODUCT_NAME = honeywelllabelprinter;
+			};
+			name = Debug;
+		};
+		9643D8E11CF5B47400DB3A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/honeywelllabeprinter/Libraries",
+					"$(PROJECT_DIR)/honeywelllabelprinter/Libraries",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/honeywelllabelprinter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/honeywelllabeprinter/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ritebozz.honeywelllabeprinter;
+				PRODUCT_NAME = honeywelllabelprinter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9643D8C31CF5B47400DB3A44 /* Build configuration list for PBXProject "honeywelllabelprinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9643D8DD1CF5B47400DB3A44 /* Debug */,
+				9643D8DE1CF5B47400DB3A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9643D8DF1CF5B47400DB3A44 /* Build configuration list for PBXNativeTarget "honeywelllabelprinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9643D8E01CF5B47400DB3A44 /* Debug */,
+				9643D8E11CF5B47400DB3A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9643D8C01CF5B47400DB3A44 /* Project object */;
+}
