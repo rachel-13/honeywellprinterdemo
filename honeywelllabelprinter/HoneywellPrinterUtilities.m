@@ -168,7 +168,6 @@
     NSString * barcodeTypeCode = [[dataToPrint objectForKey:HONEYWELLPRT_KEY_BARCODETYPE_CODE] uppercaseString];
     NSString * barCodeInput = [dataToPrint objectForKey:HONEYWELLPRT_KEY_BARCODE_INPUT];
     NSString * itemDescription = [dataToPrint objectForKey:HONEYWELLPRT_KEY_ITEM_DESC];
-    NSString * itemPrice = [dataToPrint objectForKey:HONEYWELLPRT_KEY_ITEM_PRICE];
     
     NSMutableString * printerCommandString = [[NSMutableString alloc]init];
     
