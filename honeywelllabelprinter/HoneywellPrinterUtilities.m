@@ -155,8 +155,9 @@
     [printerCommandString appendString:@"FT \"Swiss 721 Bold Condensed BT\",9: "];
     [printerCommandString appendString:@"PP 260,0: "];
     [printerCommandString appendString:[NSString stringWithFormat:@"PT \"%@\": ", itemPrice]];
+    
+    // print feed
     [printerCommandString appendString:@"PF \r\n"];
-
     return printerCommandString;
 }
 
@@ -204,6 +205,7 @@
     [printerCommandString appendString:@"AN 1: "];
     [printerCommandString appendString:@"PL 400,2: "];
     
+    // print feed
     [printerCommandString appendString:@"PF \r\n"];
     return printerCommandString;
 }
@@ -247,8 +249,9 @@
     [printerCommandString appendString:@"FT \"Swiss 721 Bold Condensed BT\",9: "];
     [printerCommandString appendString:@"PP 160,20: "];
     [printerCommandString appendString:[NSString stringWithFormat:@"PT \"%@\": ", @"RM28000.50"]];
-    [printerCommandString appendString:@"PF \r\n"];
     
+    // print feed
+    [printerCommandString appendString:@"PF \r\n"];
     return printerCommandString;
 }
 
